@@ -1,0 +1,149 @@
+body {
+    font-family: "Righteous", cursive;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .simonBoard {
+    margin: 0 auto;
+    margin-top: 50px;
+    border: solid 5px black;
+    width: 600px;
+    height: 600px;
+    border-radius: 600px;
+    box-shadow: -16px -13px 5px 0px rgba(50, 50, 50, 0.75);
+  }
+  
+  .pad {
+    border: solid 5px black;
+    width: 290px;
+    height: 290px;
+    float: left;
+    position: relative;
+    z-index: 8;
+  }
+  
+  .green {
+    background-color: green;
+    border-radius: 290px 0 0 0;
+    cursor: pointer;
+  }
+  
+  .green-active {
+    background-color: darkgreen !important;
+  }
+  
+  .red {
+    background-color: red;
+    border-radius: 0 290px 0 0;
+    cursor: pointer;
+  }
+  
+  .red-active {
+    background-color: darkred !important;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    border-radius: 0 0 0 290px;
+    cursor: pointer;
+  }
+  
+  .yellow-active {
+    background-color: #ff9100 !important;
+  }
+  
+  .blue {
+    background-color: blue;
+    border-radius: 0 0 290px 0;
+    cursor: pointer;
+  }
+  
+  .blue-active {
+    background-color: darkblue;
+  }
+  
+  .controls {
+    border: solid 15px black;
+    width: 290px;
+    height: 290px;
+    border-radius: 290px;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    margin-left: 140px;
+    margin-top: 145px;
+    box-shadow: -10px -10px 5px 0px rgba(50, 50, 50, 0.44);
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 30px;
+  }
+  
+  .inline {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .display {
+    border: solid 5px black;
+    width: 65px;
+    height: 35px;
+    border-radius: 5px;
+    color: red;
+    font-size: 35px;
+    background-color: #212121;
+    line-height: 35px;
+  }
+  
+  .start,
+  .strict {
+    width: 50px;
+    height: 50px;
+    border: solid 5px gray;
+    border-radius: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .start {
+    background-color: yellow;
+  }
+  
+  .strict {
+    background-color: red;
+  }
+  
+  .switch {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .outer-switch {
+    border: solid 5px black;
+    height: 25px;
+    width: 60px;
+    background-color: black;
+  }
+  
+  .outer-active {
+    background-color: gray !important;
+  }
+  
+  .inner-switch {
+    height: 25px;
+    width: 30px;
+    background-color: gray;
+    position: relative !important;
+  }
+  
+  .inner-active {
+    background-color: black !important;
+  }
+  
